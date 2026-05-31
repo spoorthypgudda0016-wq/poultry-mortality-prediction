@@ -39,10 +39,9 @@ if st.button("Predict"):
         st.error(f"🔴 HIGH RISK ({probability*100:.2f}%)")
 
 st.subheader("Feature Importance")
-st.image("static/feature_importance.png")
-
+st.image("Poultry_Mortality_Prediction/static/feature_importance.png")
 st.subheader("Confusion Matrix")
-st.image("static/confusion_matrix.png")
+st.image("Poultry_Mortality_Prediction/static/confusion_matrix.png")
 
 st.subheader("Model Accuracy Comparison")
-st.image("static/accuracy_comparison.png")
+st.image("Poultry_Mortality_Prediction/static/accuracy_comparison.png")

@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("model_xgb.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("Poultry_Mortality_Prediction/model_xgb.pkl")
+scaler = joblib.load("Poultry_Mortality_Prediction/scaler.pkl")
 
 st.title("🐔 Poultry Mortality Prediction System")
 
